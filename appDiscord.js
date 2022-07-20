@@ -1,0 +1,1 @@
+window.location.replace("https://discord.com/invite/P7yzQBEYUu");
