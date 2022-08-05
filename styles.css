@@ -10,6 +10,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: black;
+	border: 2px solid black;
 }
 
 .dc {
