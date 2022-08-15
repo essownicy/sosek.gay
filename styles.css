@@ -49,6 +49,24 @@ body.container .website-link {
 	animation: move 1000s linear infinite;
 }
 
+.sleezy-add {
+	color: black;
+	font-size: 0px;
+}
+
+body.container .sleezy-add {
+	color: white;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	background-image: linear-gradient(to right, red, orange, green, blue, indigo);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: move 1000s linear infinite;
+}
+
 @keyframes move {
 	to {
 		background-position: 4500vh;
